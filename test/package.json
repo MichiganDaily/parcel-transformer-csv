@@ -1,0 +1,12 @@
+{
+  "name": "@michigandaily/parcel-transformer-csv-test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@michigandaily/parcel-transformer-csv": "file:..",
+    "@parcel/config-default": "^2.7.0",
+    "@parcel/core": "^2.7.0",
+    "parcel": "^2.7.0"
+  }
+}

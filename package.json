@@ -1,0 +1,19 @@
+{
+  "name": "@michigandaily/parcel-transformer-csv",
+  "version": "1.0.0",
+  "description": "CSV transformer for Parcel 2",
+  "repository": "https://github.com/MichiganDaily/parcel-transformer-csv",
+  "author": "erxclau <ericlau41802@gmail.com>",
+  "license": "MIT",
+  "source": "src/index.js",
+  "main": "src/index.js",
+  "engines": {
+    "parcel": "2.x"
+  },
+  "dependencies": {
+    "@parcel/core": "^2.7.0",
+    "@parcel/plugin": "^2.7.0",
+    "d3-dsv": "^3.0.1",
+    "parcel": "^2.7.0"
+  }
+}
