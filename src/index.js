@@ -5,8 +5,8 @@ module.exports = new Transformer({
     const code = await asset.getCode();
     asset.type = "js";
     asset.setCode(`
-      import { csvParse } from "d3-dsv";
-      export default csvParse(\`${code}\`);
+      import { csvParse, autoType } from "d3-dsv";
+      export default csvParse(\`${code}\`, autoType);
     `);
     return [asset];
   },
