@@ -1,6 +1,6 @@
 # parcel-transformer-csv
 
-CSV transformer for Parcel 2
+CSV transformer for Parcel 2 using [`d3-dsv`](https://github.com/d3/d3-dsv)
 
 ## Usage
 
@@ -17,3 +17,15 @@ CSV transformer for Parcel 2
     }
    }
    ```
+
+Now, you can import a CSV file like so:
+
+```javascript
+import data from "../data.csv"
+```
+
+By default, this transformer will use [`d3.autoType`](https://github.com/d3/d3-dsv#autoType) to infer data types. If you want to disable automatic typing, import with a `autoType=false` query parameter:
+
+```javascript
+import data from "../data.csv?autoType=false"
+```
