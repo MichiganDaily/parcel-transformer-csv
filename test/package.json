@@ -5,8 +5,6 @@
   "private": true,
   "devDependencies": {
     "@michigandaily/parcel-transformer-csv": "file:..",
-    "@parcel/config-default": "^2.7.0",
-    "@parcel/core": "^2.7.0",
     "parcel": "^2.7.0"
   }
 }
