@@ -1,10 +1,10 @@
 {
-  "name": "@michigandaily/parcel-transformer-csv-test",
+  "name": "@michigandaily/parcel-transformer-dsv-test",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@michigandaily/parcel-transformer-csv": "file:..",
+    "@michigandaily/parcel-transformer-dsv": "file:..",
     "parcel": "^2.7.0"
   }
 }
