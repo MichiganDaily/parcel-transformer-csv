@@ -1,8 +1,8 @@
 {
-  "name": "@michigandaily/parcel-transformer-csv",
-  "version": "1.0.3",
-  "description": "CSV transformer for Parcel 2",
-  "repository": "https://github.com/MichiganDaily/parcel-transformer-csv",
+  "name": "@michigandaily/parcel-transformer-dsv",
+  "version": "2.0.0",
+  "description": "DSV transformer for Parcel 2",
+  "repository": "https://github.com/MichiganDaily/parcel-transformer-dsv",
   "author": "erxclau <ericlau41802@gmail.com>",
   "license": "MIT",
   "source": "src/index.js",
