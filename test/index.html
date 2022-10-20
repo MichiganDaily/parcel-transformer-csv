@@ -8,12 +8,16 @@
 </head>
 <body>
   <script type="module">
-    import csv from "./data/data.csv";
+    import csv from "./data/data.csv?columns=a,b,c";
     import tsv from "./data/data.tsv";
-    import dsv from "./data/data.dsv?delimiter=:&autoType=false";
+    import dsv from "./data/data.dsv?delimiter=:&autoType=false&columns=a:b";
+    import space from "./data/space.csv?columns=question 1";
+    import comma from "./data/comma.csv?columns=\"question, 1\",\"question, 2\"&autoType=false";
     console.log(csv);
     console.log(tsv);
     console.log(dsv);
+    console.log(space);
+    console.log(comma);
   </script>
 </body>
 </html>

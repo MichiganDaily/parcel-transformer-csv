@@ -41,3 +41,9 @@ By default, this transformer will use [`d3.autoType`](https://github.com/d3/d3-d
 ```javascript
 import data from "../data.csv?autoType=false"
 ```
+
+If you want to only retrieve certain columns of values from a DSV, use the `columns` query paramter. The following import will only import the `a` and `b` columns from a CSV file:
+
+```javascript
+import data from "../data.csv?columns=a,b"
+```
