@@ -43,9 +43,6 @@ module.exports = new Transformer({
     const shouldAutoType = !(q.has(auto) && q.get(auto) === "false");
     if (shouldAutoType) {
       imports += "," + auto;
-    }
-
-    if (shouldAutoType) {
       data = `${parser}(\`${code}\`, ${auto})`;
     }
 
