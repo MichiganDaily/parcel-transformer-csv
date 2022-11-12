@@ -1,6 +1,6 @@
 {
   "name": "@michigandaily/parcel-transformer-dsv",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "DSV transformer for Parcel 2",
   "repository": "https://github.com/MichiganDaily/parcel-transformer-dsv",
   "author": "erxclau <ericlau41802@gmail.com>",
@@ -11,8 +11,8 @@
     "parcel": "2.x"
   },
   "dependencies": {
-    "@parcel/core": "^2.7.0",
-    "@parcel/plugin": "^2.7.0",
+    "@parcel/core": "^2.8.0",
+    "@parcel/plugin": "^2.8.0",
     "d3-dsv": "^3.0.1"
   }
 }
